@@ -1,1 +1,32 @@
 @import url("./base.css");
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+header > a {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header > div {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+}
+
+nav > ul li {
+  margin-inline-end: 36px;
+  font-size: 20px;
+}
